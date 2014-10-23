@@ -19,6 +19,7 @@ Yahoo will only let you download the stock information for one stock at a time o
 
 This was built with Visual Studio 2013, I included all the files in the solution folder.  It is built for .NET 4 so it will work on Windows XP, Vista, Windows 7 and Windows 8 as long as .NET 4 is installed.
 
-If you just want to see the logic without the all the windows form stuff, the C# code is in the ```
-YahooDownloader\Form1.cs file.
+If you just want to see the logic without the all the windows form stuff, the C# code is here:
+```
+YahooDownloader\Form1.cs
 ```
