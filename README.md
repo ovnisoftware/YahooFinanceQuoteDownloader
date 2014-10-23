@@ -21,5 +21,5 @@ This was built with Visual Studio 2013, I included all the files in the solution
 
 If you just want to see the logic without the all the windows form stuff, the C# code is here:
 ```
-YahooDownloader\Form1.cs
+YahooDownloader/Form1.cs
 ```
