@@ -121,5 +121,86 @@ namespace YahooDownloader
             toYear.Value = asdf.Year;
             fromYear.Value = asdf.Year;
         }
+
+        private void dow30ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Access barchart.com to get Dow 30 components
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://www.barchart.com/stocks/industrials.php?view=main");
+            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+
+            //Read source of request to webPageInfo string
+            StreamReader stream = new StreamReader(response.GetResponseStream());
+            string webPageInfo = stream.ReadToEnd();
+
+            //Trim returned text to get tickers
+            int index = webPageInfo.IndexOf("QuoteTableListener");
+            webPageInfo = webPageInfo.Substring(index);
+
+            index = webPageInfo.IndexOf("[");
+            webPageInfo = webPageInfo.Substring(index + 1);
+
+            index = webPageInfo.IndexOf("''");
+            webPageInfo = webPageInfo.Substring(0, index - 1);
+
+            webPageInfo = webPageInfo.Replace("'", "");
+
+            webPageInfo = webPageInfo.Replace(",", ", ");
+
+            textBoxTicker.Text += webPageInfo;
+        }
+
+        private void sP100ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Access barchart.com to get S&P 100 components
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://www.barchart.com/stocks/sp100.php");
+            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+
+            //Read source of request to webPageInfo string
+            StreamReader stream = new StreamReader(response.GetResponseStream());
+            string webPageInfo = stream.ReadToEnd();
+
+            //Trim returned text to get tickers
+            int index = webPageInfo.IndexOf("QuoteTableListener");
+            webPageInfo = webPageInfo.Substring(index);
+
+            index = webPageInfo.IndexOf("[");
+            webPageInfo = webPageInfo.Substring(index + 1);
+
+            index = webPageInfo.IndexOf("],");
+            webPageInfo = webPageInfo.Substring(0, index - 1);
+
+            webPageInfo = webPageInfo.Replace("'", "");
+
+            webPageInfo = webPageInfo.Replace(",", ", ");
+
+            textBoxTicker.Text += webPageInfo;
+        }
+
+        private void nasdaq100ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Access barchart.com to get NASDAQ 100 components
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://www.barchart.com/stocks/nasdaq100.php");
+            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+
+            //Read source of request to webPageInfo string
+            StreamReader stream = new StreamReader(response.GetResponseStream());
+            string webPageInfo = stream.ReadToEnd();
+
+            //Trim returned text to get tickers
+            int index = webPageInfo.IndexOf("QuoteTableListener");
+            webPageInfo = webPageInfo.Substring(index);
+
+            index = webPageInfo.IndexOf("[");
+            webPageInfo = webPageInfo.Substring(index + 1);
+
+            index = webPageInfo.IndexOf("],");
+            webPageInfo = webPageInfo.Substring(0, index - 1);
+
+            webPageInfo = webPageInfo.Replace("'", "");
+
+            webPageInfo = webPageInfo.Replace(",", ", ");
+
+            textBoxTicker.Text += webPageInfo;
+        }
     }
 }

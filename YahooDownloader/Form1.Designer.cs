@@ -46,22 +46,28 @@
             this.toDay = new System.Windows.Forms.NumericUpDown();
             this.fromYear = new System.Windows.Forms.NumericUpDown();
             this.toYear = new System.Windows.Forms.NumericUpDown();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.dLComponentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dow30ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sP100ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nasdaq100ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.fromDay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.toDay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fromYear)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.toYear)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtPath
             // 
-            this.txtPath.Location = new System.Drawing.Point(102, 10);
+            this.txtPath.Location = new System.Drawing.Point(102, 23);
             this.txtPath.Name = "txtPath";
             this.txtPath.Size = new System.Drawing.Size(256, 20);
             this.txtPath.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(376, 8);
+            this.button1.Location = new System.Drawing.Point(376, 21);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
@@ -72,7 +78,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(33, 13);
+            this.label1.Location = new System.Drawing.Point(33, 26);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(64, 13);
             this.label1.TabIndex = 2;
@@ -80,7 +86,7 @@
             // 
             // textBoxTicker
             // 
-            this.textBoxTicker.Location = new System.Drawing.Point(103, 112);
+            this.textBoxTicker.Location = new System.Drawing.Point(103, 125);
             this.textBoxTicker.Multiline = true;
             this.textBoxTicker.Name = "textBoxTicker";
             this.textBoxTicker.Size = new System.Drawing.Size(256, 86);
@@ -90,7 +96,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(14, 115);
+            this.label2.Location = new System.Drawing.Point(14, 128);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(83, 39);
             this.label2.TabIndex = 4;
@@ -98,7 +104,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(376, 46);
+            this.button2.Location = new System.Drawing.Point(376, 59);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 39);
             this.button2.TabIndex = 5;
@@ -109,7 +115,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(39, 50);
+            this.label3.Location = new System.Drawing.Point(39, 63);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(58, 13);
             this.label3.TabIndex = 6;
@@ -118,7 +124,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(42, 78);
+            this.label4.Location = new System.Drawing.Point(42, 91);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(55, 13);
             this.label4.TabIndex = 7;
@@ -141,7 +147,7 @@
             "Oct",
             "Nov",
             "Dec"});
-            this.fromMonth.Location = new System.Drawing.Point(103, 46);
+            this.fromMonth.Location = new System.Drawing.Point(103, 59);
             this.fromMonth.Name = "fromMonth";
             this.fromMonth.Size = new System.Drawing.Size(50, 21);
             this.fromMonth.TabIndex = 8;
@@ -163,7 +169,7 @@
             "Oct",
             "Nov",
             "Dec"});
-            this.toMonth.Location = new System.Drawing.Point(103, 74);
+            this.toMonth.Location = new System.Drawing.Point(103, 87);
             this.toMonth.Name = "toMonth";
             this.toMonth.Size = new System.Drawing.Size(50, 21);
             this.toMonth.TabIndex = 9;
@@ -172,7 +178,7 @@
             // 
             this.rbDaily.AutoSize = true;
             this.rbDaily.Checked = true;
-            this.rbDaily.Location = new System.Drawing.Point(300, 46);
+            this.rbDaily.Location = new System.Drawing.Point(300, 59);
             this.rbDaily.Name = "rbDaily";
             this.rbDaily.Size = new System.Drawing.Size(48, 17);
             this.rbDaily.TabIndex = 14;
@@ -183,7 +189,7 @@
             // rbWeekly
             // 
             this.rbWeekly.AutoSize = true;
-            this.rbWeekly.Location = new System.Drawing.Point(300, 67);
+            this.rbWeekly.Location = new System.Drawing.Point(300, 80);
             this.rbWeekly.Name = "rbWeekly";
             this.rbWeekly.Size = new System.Drawing.Size(61, 17);
             this.rbWeekly.TabIndex = 15;
@@ -193,7 +199,7 @@
             // rbMonthly
             // 
             this.rbMonthly.AutoSize = true;
-            this.rbMonthly.Location = new System.Drawing.Point(300, 89);
+            this.rbMonthly.Location = new System.Drawing.Point(300, 102);
             this.rbMonthly.Name = "rbMonthly";
             this.rbMonthly.Size = new System.Drawing.Size(62, 17);
             this.rbMonthly.TabIndex = 16;
@@ -202,7 +208,7 @@
             // 
             // fromDay
             // 
-            this.fromDay.Location = new System.Drawing.Point(161, 46);
+            this.fromDay.Location = new System.Drawing.Point(161, 59);
             this.fromDay.Maximum = new decimal(new int[] {
             31,
             0,
@@ -224,7 +230,7 @@
             // 
             // toDay
             // 
-            this.toDay.Location = new System.Drawing.Point(161, 76);
+            this.toDay.Location = new System.Drawing.Point(161, 89);
             this.toDay.Maximum = new decimal(new int[] {
             31,
             0,
@@ -246,7 +252,7 @@
             // 
             // fromYear
             // 
-            this.fromYear.Location = new System.Drawing.Point(216, 46);
+            this.fromYear.Location = new System.Drawing.Point(216, 59);
             this.fromYear.Maximum = new decimal(new int[] {
             2100,
             0,
@@ -268,7 +274,7 @@
             // 
             // toYear
             // 
-            this.toYear.Location = new System.Drawing.Point(216, 78);
+            this.toYear.Location = new System.Drawing.Point(216, 91);
             this.toYear.Maximum = new decimal(new int[] {
             2100,
             0,
@@ -287,6 +293,47 @@
             0,
             0,
             0});
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dLComponentsToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(480, 24);
+            this.menuStrip1.TabIndex = 21;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // dLComponentsToolStripMenuItem
+            // 
+            this.dLComponentsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dow30ToolStripMenuItem,
+            this.sP100ToolStripMenuItem,
+            this.nasdaq100ToolStripMenuItem});
+            this.dLComponentsToolStripMenuItem.Name = "dLComponentsToolStripMenuItem";
+            this.dLComponentsToolStripMenuItem.Size = new System.Drawing.Size(119, 20);
+            this.dLComponentsToolStripMenuItem.Text = "Index Components";
+            // 
+            // dow30ToolStripMenuItem
+            // 
+            this.dow30ToolStripMenuItem.Name = "dow30ToolStripMenuItem";
+            this.dow30ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.dow30ToolStripMenuItem.Text = "Dow 30";
+            this.dow30ToolStripMenuItem.Click += new System.EventHandler(this.dow30ToolStripMenuItem_Click);
+            // 
+            // sP100ToolStripMenuItem
+            // 
+            this.sP100ToolStripMenuItem.Name = "sP100ToolStripMenuItem";
+            this.sP100ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.sP100ToolStripMenuItem.Text = "S&&P 100";
+            this.sP100ToolStripMenuItem.Click += new System.EventHandler(this.sP100ToolStripMenuItem_Click);
+            // 
+            // nasdaq100ToolStripMenuItem
+            // 
+            this.nasdaq100ToolStripMenuItem.Name = "nasdaq100ToolStripMenuItem";
+            this.nasdaq100ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.nasdaq100ToolStripMenuItem.Text = "Nasdaq 100";
+            this.nasdaq100ToolStripMenuItem.Click += new System.EventHandler(this.nasdaq100ToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -310,12 +357,16 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtPath);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Yahoo Historical Quote Downloader";
             ((System.ComponentModel.ISupportInitialize)(this.fromDay)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.toDay)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fromYear)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.toYear)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -341,6 +392,11 @@
         private System.Windows.Forms.NumericUpDown toDay;
         private System.Windows.Forms.NumericUpDown fromYear;
         private System.Windows.Forms.NumericUpDown toYear;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem dLComponentsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dow30ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sP100ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem nasdaq100ToolStripMenuItem;
     }
 }
 
