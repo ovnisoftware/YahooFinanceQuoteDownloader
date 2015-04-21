@@ -133,16 +133,14 @@ namespace YahooDownloader
             string webPageInfo = stream.ReadToEnd();
 
             //Trim returned text to get tickers
-            int index = webPageInfo.IndexOf("QuoteTableListener");
-            webPageInfo = webPageInfo.Substring(index);
+            int index = webPageInfo.IndexOf("\"symbols\"");
+            webPageInfo = webPageInfo.Substring(index + 9);
 
-            index = webPageInfo.IndexOf("[");
-            webPageInfo = webPageInfo.Substring(index + 1);
+            index = webPageInfo.IndexOf("=\"");
+            webPageInfo = webPageInfo.Substring(index + 2);
 
-            index = webPageInfo.IndexOf("''");
-            webPageInfo = webPageInfo.Substring(0, index - 1);
-
-            webPageInfo = webPageInfo.Replace("'", "");
+            index = webPageInfo.IndexOf(",,");
+            webPageInfo = webPageInfo.Substring(0, index);
 
             webPageInfo = webPageInfo.Replace(",", ", ");
 
@@ -160,16 +158,14 @@ namespace YahooDownloader
             string webPageInfo = stream.ReadToEnd();
 
             //Trim returned text to get tickers
-            int index = webPageInfo.IndexOf("QuoteTableListener");
-            webPageInfo = webPageInfo.Substring(index);
+            int index = webPageInfo.IndexOf("\"symbols\"");
+            webPageInfo = webPageInfo.Substring(index + 9);
 
-            index = webPageInfo.IndexOf("[");
-            webPageInfo = webPageInfo.Substring(index + 1);
+            index = webPageInfo.IndexOf("=\"");
+            webPageInfo = webPageInfo.Substring(index + 2);
 
-            index = webPageInfo.IndexOf("],");
-            webPageInfo = webPageInfo.Substring(0, index - 1);
-
-            webPageInfo = webPageInfo.Replace("'", "");
+            index = webPageInfo.IndexOf("\"");
+            webPageInfo = webPageInfo.Substring(0, index);
 
             webPageInfo = webPageInfo.Replace(",", ", ");
 
@@ -187,16 +183,14 @@ namespace YahooDownloader
             string webPageInfo = stream.ReadToEnd();
 
             //Trim returned text to get tickers
-            int index = webPageInfo.IndexOf("QuoteTableListener");
-            webPageInfo = webPageInfo.Substring(index);
+            int index = webPageInfo.IndexOf("\"symbols\"");
+            webPageInfo = webPageInfo.Substring(index + 9);
 
-            index = webPageInfo.IndexOf("[");
-            webPageInfo = webPageInfo.Substring(index + 1);
+            index = webPageInfo.IndexOf("=\"");
+            webPageInfo = webPageInfo.Substring(index + 2);
 
-            index = webPageInfo.IndexOf("],");
-            webPageInfo = webPageInfo.Substring(0, index - 1);
-
-            webPageInfo = webPageInfo.Replace("'", "");
+            index = webPageInfo.IndexOf("\"");
+            webPageInfo = webPageInfo.Substring(0, index);
 
             webPageInfo = webPageInfo.Replace(",", ", ");
 
