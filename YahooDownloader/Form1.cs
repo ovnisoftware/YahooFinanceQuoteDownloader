@@ -48,6 +48,7 @@ namespace YahooDownloader
                         string[] symbols = tickers.Split(',');
                         foreach (string symbol in symbols)
                         {
+                            //Constructs Yahoo's URL to request data from
                             string path = Path.Combine(folder, symbol + ".csv");
                             string url = "http://real-chart.finance.yahoo.com/table.csv?s=" + symbol + "&a=" + fromMonth.SelectedIndex + "&b=" +
                                 fromDay.Value + "&c=" + fromYear.Value + "&d=" + toMonth.SelectedIndex + "&e=" + toDay.Value + "&f" + toYear.Value + "&g=" + interval + "&ignore=.csv";
@@ -55,7 +56,31 @@ namespace YahooDownloader
                             {
                                 using (WebClient Client = new WebClient())
                                 {
+                                    //Download .csv file from Yahoo
                                     Client.DownloadFile(url, path);
+                                    
+                                    //Create temp file
+                                    string tempFile = Path.Combine(folder, symbol + "_temp.csv");
+                                    using (var writer = new StreamWriter(tempFile))
+                                    using (var reader = new StreamReader(File.OpenRead(path)))
+                                    {
+                                        //Prepend Ticker to Header
+                                        string header = reader.ReadLine();
+                                        header = header.Insert(0, "Ticker,");
+                                        //Add _ to Adj Close header
+                                        header = header.Replace("Adj Close", "Adj_Close");
+                                        writer.WriteLine(header);
+
+                                        //Prepend ticker symbol to each line of quote information
+                                        while (!reader.EndOfStream)
+                                        {
+                                            string tickerInfo = reader.ReadLine();
+                                            tickerInfo = tickerInfo.Insert(0, symbol + ",");
+                                            writer.WriteLine(tickerInfo);
+                                        }
+                                    }
+                                    File.Copy(tempFile, path, true);
+                                    File.Delete(tempFile);
                                 }
                             }
                             catch
@@ -64,6 +89,7 @@ namespace YahooDownloader
                             }
 
                         }
+                        MessageBox.Show("All tickers processed to: " + folder);
                     }
                     else
                         MessageBox.Show("Please enter only letters and commas, ex:" + Environment.NewLine + "GOOG, AMZN, MSFT");
