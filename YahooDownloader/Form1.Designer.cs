@@ -51,6 +51,7 @@
             this.dow30ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sP100ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nasdaq100ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.fromDay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.toDay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fromYear)).BeginInit();
@@ -89,9 +90,10 @@
             this.textBoxTicker.Location = new System.Drawing.Point(103, 125);
             this.textBoxTicker.Multiline = true;
             this.textBoxTicker.Name = "textBoxTicker";
+            this.textBoxTicker.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBoxTicker.Size = new System.Drawing.Size(256, 86);
             this.textBoxTicker.TabIndex = 3;
-            this.textBoxTicker.Text = "goog, aapl, amzn";
+            this.textBoxTicker.Text = "GOOG, AAPL, AMZN";
             // 
             // label2
             // 
@@ -317,29 +319,41 @@
             // dow30ToolStripMenuItem
             // 
             this.dow30ToolStripMenuItem.Name = "dow30ToolStripMenuItem";
-            this.dow30ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.dow30ToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.dow30ToolStripMenuItem.Text = "Dow 30";
             this.dow30ToolStripMenuItem.Click += new System.EventHandler(this.dow30ToolStripMenuItem_Click);
             // 
             // sP100ToolStripMenuItem
             // 
             this.sP100ToolStripMenuItem.Name = "sP100ToolStripMenuItem";
-            this.sP100ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.sP100ToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.sP100ToolStripMenuItem.Text = "S&&P 100";
             this.sP100ToolStripMenuItem.Click += new System.EventHandler(this.sP100ToolStripMenuItem_Click);
             // 
             // nasdaq100ToolStripMenuItem
             // 
             this.nasdaq100ToolStripMenuItem.Name = "nasdaq100ToolStripMenuItem";
-            this.nasdaq100ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.nasdaq100ToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.nasdaq100ToolStripMenuItem.Text = "Nasdaq 100";
             this.nasdaq100ToolStripMenuItem.Click += new System.EventHandler(this.nasdaq100ToolStripMenuItem_Click);
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(17, 219);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(69, 17);
+            this.checkBox1.TabIndex = 22;
+            this.checkBox1.Text = "Music on";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(480, 227);
+            this.ClientSize = new System.Drawing.Size(480, 244);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.toYear);
             this.Controls.Add(this.fromYear);
             this.Controls.Add(this.toDay);
@@ -397,6 +411,7 @@
         private System.Windows.Forms.ToolStripMenuItem dow30ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sP100ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nasdaq100ToolStripMenuItem;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 

@@ -15,6 +15,8 @@ namespace YahooDownloader
 {
     public partial class Form1 : Form
     {
+        System.Media.SoundPlayer sp = new System.Media.SoundPlayer(Properties.Resources.Contra);
+        bool musicOn = false;
         string folder = "";
         string interval = "";
         public Form1()
@@ -221,6 +223,20 @@ namespace YahooDownloader
             webPageInfo = webPageInfo.Replace(",", ", ");
 
             textBoxTicker.Text += webPageInfo;
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (musicOn)
+            {
+                musicOn = false;
+                sp.Stop();
+            }
+            else
+            {
+                musicOn = true;
+                sp.PlayLooping();
+            }
         }
     }
 }
