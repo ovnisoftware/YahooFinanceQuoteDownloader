@@ -17,11 +17,11 @@ C:\Users\tester\Documents\Visual Studio 2013\Projects\YahooDownloader2\YahooDown
 C:\Users\tester\Documents\Visual Studio 2013\Projects\YahooDownloader2\YahooDownloader\obj\Debug\YahooDownloader.Properties.Resources.resources
 C:\Users\tester\Documents\Visual Studio 2013\Projects\YahooDownloader2\YahooDownloader\obj\Debug\YahooDownloader.csproj.GenerateResource.Cache
 C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\YahooDownloader\bin\Debug\YahooDownloader.exe.config
-C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\YahooDownloader\obj\Debug\YahooDownloader.exe
-C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\YahooDownloader\obj\Debug\YahooDownloader.pdb
 C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\YahooDownloader\bin\Debug\YahooDownloader.exe
 C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\YahooDownloader\bin\Debug\YahooDownloader.pdb
 C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\YahooDownloader\obj\Debug\YahooDownloader.csprojResolveAssemblyReference.cache
 C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\YahooDownloader\obj\Debug\YahooDownloader.Form1.resources
 C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\YahooDownloader\obj\Debug\YahooDownloader.Properties.Resources.resources
 C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\YahooDownloader\obj\Debug\YahooDownloader.csproj.GenerateResource.Cache
+C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\YahooDownloader\obj\Debug\YahooDownloader.exe
+C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\YahooDownloader\obj\Debug\YahooDownloader.pdb
