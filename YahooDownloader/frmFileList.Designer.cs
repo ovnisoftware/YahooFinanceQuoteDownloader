@@ -44,9 +44,9 @@
             // 
             // txtSearchBox
             // 
-            this.txtSearchBox.Location = new System.Drawing.Point(62, 6);
+            this.txtSearchBox.Location = new System.Drawing.Point(80, 6);
             this.txtSearchBox.Name = "txtSearchBox";
-            this.txtSearchBox.Size = new System.Drawing.Size(299, 20);
+            this.txtSearchBox.Size = new System.Drawing.Size(281, 20);
             this.txtSearchBox.TabIndex = 1;
             this.txtSearchBox.TextChanged += new System.EventHandler(this.txtSearchBox_TextChanged);
             // 
@@ -55,9 +55,9 @@
             this.lblSearch.AutoSize = true;
             this.lblSearch.Location = new System.Drawing.Point(12, 9);
             this.lblSearch.Name = "lblSearch";
-            this.lblSearch.Size = new System.Drawing.Size(44, 13);
+            this.lblSearch.Size = new System.Drawing.Size(62, 13);
             this.lblSearch.TabIndex = 2;
-            this.lblSearch.Text = "Search:";
+            this.lblSearch.Text = "Search For:";
             // 
             // frmFileList
             // 
