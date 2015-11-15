@@ -8,8 +8,6 @@ namespace YahooDownloader
 {
     public partial class frmDownload : Form
     {
-        System.Media.SoundPlayer sp = new System.Media.SoundPlayer(Properties.Resources.Contra);
-        bool musicOn = false;
         string folder = "";
         string interval = "";
 
@@ -150,20 +148,6 @@ namespace YahooDownloader
         private void nasdaq100ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             txtTicker.Text += GetIndices.GetNasdaq100();
-        }
-
-        private void chkMusic_CheckedChanged(object sender, EventArgs e)
-        {
-            if (musicOn)
-            {
-                musicOn = false;
-                sp.Stop();
-            }
-            else
-            {
-                musicOn = true;
-                sp.PlayLooping();
-            }
         }
     }
 }

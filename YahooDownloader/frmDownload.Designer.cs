@@ -51,7 +51,6 @@
             this.dow30ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sP100ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nasdaq100ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.chkMusic = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.nudFromDay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudToDay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudFromYear)).BeginInit();
@@ -337,23 +336,11 @@
             this.nasdaq100ToolStripMenuItem.Text = "Nasdaq 100";
             this.nasdaq100ToolStripMenuItem.Click += new System.EventHandler(this.nasdaq100ToolStripMenuItem_Click);
             // 
-            // chkMusic
-            // 
-            this.chkMusic.AutoSize = true;
-            this.chkMusic.Location = new System.Drawing.Point(17, 219);
-            this.chkMusic.Name = "chkMusic";
-            this.chkMusic.Size = new System.Drawing.Size(69, 17);
-            this.chkMusic.TabIndex = 22;
-            this.chkMusic.Text = "Music on";
-            this.chkMusic.UseVisualStyleBackColor = true;
-            this.chkMusic.CheckedChanged += new System.EventHandler(this.chkMusic_CheckedChanged);
-            // 
             // frmDownload
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(463, 249);
-            this.Controls.Add(this.chkMusic);
             this.Controls.Add(this.nudToYear);
             this.Controls.Add(this.nudFromYear);
             this.Controls.Add(this.nudToDay);
@@ -412,7 +399,6 @@
         private System.Windows.Forms.ToolStripMenuItem dow30ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sP100ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nasdaq100ToolStripMenuItem;
-        private System.Windows.Forms.CheckBox chkMusic;
     }
 }
 
