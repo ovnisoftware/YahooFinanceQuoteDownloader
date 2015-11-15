@@ -25,3 +25,4 @@ C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\YahooDownloader\obj
 C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\YahooDownloader\obj\Debug\YahooDownloader.pdb
 C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\YahooDownloader\obj\Debug\YahooDownloader.frmDownload.resources
 C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\YahooDownloader\obj\Debug\YahooDownloader.frmFileList.resources
+C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\YahooDownloader\obj\Debug\YahooDownloader.csprojResolveAssemblyReference.cache
