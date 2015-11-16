@@ -1,0 +1,14 @@
+C:\Users\towsi\Desktop\udemy\YahooStockDownloader\YahooStockDownloader\YahooStockDownloader\bin\Debug\YahooStockDownloader.exe.config
+C:\Users\towsi\Desktop\udemy\YahooStockDownloader\YahooStockDownloader\YahooStockDownloader\bin\Debug\YahooStockDownloader.exe
+C:\Users\towsi\Desktop\udemy\YahooStockDownloader\YahooStockDownloader\YahooStockDownloader\bin\Debug\YahooStockDownloader.pdb
+C:\Users\towsi\Desktop\udemy\YahooStockDownloader\YahooStockDownloader\YahooStockDownloader\obj\Debug\YahooStockDownloader.Form1.resources
+C:\Users\towsi\Desktop\udemy\YahooStockDownloader\YahooStockDownloader\YahooStockDownloader\obj\Debug\YahooStockDownloader.Properties.Resources.resources
+C:\Users\towsi\Desktop\udemy\YahooStockDownloader\YahooStockDownloader\YahooStockDownloader\obj\Debug\YahooStockDownloader.csproj.GenerateResource.Cache
+C:\Users\towsi\Desktop\udemy\YahooStockDownloader\YahooStockDownloader\YahooStockDownloader\obj\Debug\YahooStockDownloader.exe
+C:\Users\towsi\Desktop\udemy\YahooStockDownloader\YahooStockDownloader\YahooStockDownloader\obj\Debug\YahooStockDownloader.pdb
+C:\Users\towsi\Desktop\udemy\YahooStockDownloader\lesson3menustrip\YahooStockDownloader\YahooStockDownloader\bin\Debug\YahooStockDownloader.exe.config
+C:\Users\towsi\Desktop\udemy\YahooStockDownloader\lesson3menustrip\YahooStockDownloader\YahooStockDownloader\obj\Debug\YahooStockDownloader.exe
+C:\Users\towsi\Desktop\udemy\YahooStockDownloader\lesson3menustrip\YahooStockDownloader\YahooStockDownloader\obj\Debug\YahooStockDownloader.pdb
+C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\Udemy Lessons\Lesson 1 Add a Menu Strip\YahooStockDownloader\YahooStockDownloader\bin\Debug\YahooStockDownloader.exe.config
+C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\Udemy Lessons\Lesson 1 Add a Menu Strip\YahooStockDownloader\YahooStockDownloader\obj\Debug\YahooStockDownloader.exe
+C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\Udemy Lessons\Lesson 1 Add a Menu Strip\YahooStockDownloader\YahooStockDownloader\obj\Debug\YahooStockDownloader.pdb
