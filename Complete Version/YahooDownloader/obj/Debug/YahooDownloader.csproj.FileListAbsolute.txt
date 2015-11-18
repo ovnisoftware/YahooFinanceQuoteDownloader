@@ -31,7 +31,6 @@ C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\Complete Version\Ya
 C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\Complete Version\YahooDownloader\obj\Debug\YahooDownloader.pdb
 C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\Complete Version\YahooDownloader\bin\Debug\YahooDownloader.exe
 C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\Complete Version\YahooDownloader\bin\Debug\YahooDownloader.pdb
-C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\Complete Version\YahooDownloader\obj\Debug\YahooDownloader.csprojResolveAssemblyReference.cache
 C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\Complete Version\YahooDownloader\obj\Debug\YahooDownloader.frmDownload.resources
 C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\Complete Version\YahooDownloader\obj\Debug\YahooDownloader.frmFileList.resources
 C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\Complete Version\YahooDownloader\obj\Debug\YahooDownloader.Properties.Resources.resources

@@ -119,3 +119,13 @@ C:\Users\towsi\Desktop\udemy\YahooStockDownloader\lesson17createformandsetfolder
 C:\Users\towsi\Desktop\udemy\YahooStockDownloader\lesson17createformandsetfolderpath\YahooStockDownloader\YahooStockDownloader\obj\Debug\YahooStockDownloader.frmYahooDownloader.resources
 C:\Users\towsi\Desktop\udemy\YahooStockDownloader\lesson17createformandsetfolderpath\YahooStockDownloader\YahooStockDownloader\obj\Debug\YahooStockDownloader.Properties.Resources.resources
 C:\Users\towsi\Desktop\udemy\YahooStockDownloader\lesson17createformandsetfolderpath\YahooStockDownloader\YahooStockDownloader\obj\Debug\YahooStockDownloader.csproj.GenerateResource.Cache
+C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\Udemy Lessons\Lesson17 Initialize Form\YahooStockDownloader\YahooStockDownloader\bin\Debug\YahooStockDownloader.exe.config
+C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\Udemy Lessons\Lesson17 Initialize Form\YahooStockDownloader\YahooStockDownloader\obj\Debug\YahooStockDownloader.exe
+C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\Udemy Lessons\Lesson17 Initialize Form\YahooStockDownloader\YahooStockDownloader\obj\Debug\YahooStockDownloader.pdb
+C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\Udemy Lessons\Lesson17 Initialize Form\YahooStockDownloader\YahooStockDownloader\bin\Debug\YahooStockDownloader.exe
+C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\Udemy Lessons\Lesson17 Initialize Form\YahooStockDownloader\YahooStockDownloader\bin\Debug\YahooStockDownloader.pdb
+C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\Udemy Lessons\Lesson17 Initialize Form\YahooStockDownloader\YahooStockDownloader\obj\Debug\YahooStockDownloader.csprojResolveAssemblyReference.cache
+C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\Udemy Lessons\Lesson17 Initialize Form\YahooStockDownloader\YahooStockDownloader\obj\Debug\YahooStockDownloader.frmFormList.resources
+C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\Udemy Lessons\Lesson17 Initialize Form\YahooStockDownloader\YahooStockDownloader\obj\Debug\YahooStockDownloader.frmYahooDownloader.resources
+C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\Udemy Lessons\Lesson17 Initialize Form\YahooStockDownloader\YahooStockDownloader\obj\Debug\YahooStockDownloader.Properties.Resources.resources
+C:\Users\tester\Documents\GitHub\YahooFinanceQuoteDownloader\Udemy Lessons\Lesson17 Initialize Form\YahooStockDownloader\YahooStockDownloader\obj\Debug\YahooStockDownloader.csproj.GenerateResource.Cache
