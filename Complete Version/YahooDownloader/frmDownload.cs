@@ -45,7 +45,7 @@ namespace YahooDownloader
                 string tickers = txtTicker.Text;
 
                 //Verify symbols are only letters and commas
-                bool result = tickers.All((c => Char.IsLetter(c) || c == ',' || c == ' ' || c== '.'));
+                bool result = tickers.All((c => Char.IsLetter(c) || c == ',' || c == ' ' || c == '-'));
                 if (!result)
                 {
                     MessageBox.Show("Please enter only letters and commas, ex:" + Environment.NewLine + "GOOG, AMZN, MSFT");

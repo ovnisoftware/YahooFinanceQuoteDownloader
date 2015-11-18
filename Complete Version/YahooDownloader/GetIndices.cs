@@ -26,6 +26,7 @@ namespace YahooDownloader
             webPageInfo = webPageInfo.Substring(0, index);
 
             webPageInfo = webPageInfo.Replace(",", ", ");
+            webPageInfo = webPageInfo.Replace(".", "-");
 
             return webPageInfo;
         }
