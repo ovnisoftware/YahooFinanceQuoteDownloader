@@ -1,7 +1,11 @@
 YahooFinanceQuoteDownloader
 ===========================
 
-Winforms app in C# to download historical stock quote information (in .CSV format) from Yahoo Finance
+C# app to download historical stock quote information (in .CSV format) from Yahoo Finance
+
+Check out the Udemy course that explains how to build it here:
+
+https://www.udemy.com/csharpyahoostockdownloader/
 
 ![](https://github.com/ovnisoftware/YahooFinanceQuoteDownloader/blob/master/QuoteDownloader.JPG)
 
